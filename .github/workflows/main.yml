@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Run daily check-in script
-      run: node path/to/your/script.js
+      run: node sgin/index.js
       env:
         LOGIN_COOKIE: ${{ secrets.LOGIN_COOKIE }}
         AUTHORIZATION_TOKEN: ${{ secrets.AUTHORIZATION_TOKEN }}
